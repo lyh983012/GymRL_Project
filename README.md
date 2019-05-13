@@ -22,6 +22,6 @@
 - action暂时用actions.py第一组定义
 
 ## 第1.1版进度
--加入了vx的判断，成为惩罚项
--state定义（x_pos,life，done）
--长时间迭代可完成第一关
+- 加入了vx的判断，成为惩罚项。
+- state定义（x_pos,life，done）。
+- 长时间迭代可完成第一关
