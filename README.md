@@ -28,7 +28,7 @@
 
 
 ## DQN第1版进度
-> * 实现网络结构：2*CNN+1*256fc_net+output
+> * 实现网络结构：2CNN+1fc_net(256)+output(simple_movement)
 > * 处理单帧图像输入；
 > * 贪心率等比数列下降；
 > * 经验回放策略
