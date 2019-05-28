@@ -38,3 +38,18 @@
 > * 贪心率改为线性下降
 > * **加入模型存储功能，一定iteration后存储**
 
+**- 对DQN的改进：**
+> * 网络改为TF组织
+> * 连续4帧统一动作，连续4帧做网络输入
+> * 需要改变网络参数、循环结构、短时记忆如何实现、或者直接改变预处理？
+> * 80*80 or 84*84 ？
+> * epoch/episode = 100; iteration = 10000
+> * Double DQN：一个用来决定行为，一个用来估计价值
+    - update_target_net()
+			 - save_weight()
+			 - loss应该需要重写（参考github）
+> * A3C（policy gradient相关）
+> * 我想做的：
+			 - DDQN
+			 - 在输出中加入日志，例如epoch平均reward等等
+			 - A3C随缘，看时间是否足够（据说可以加快速度），因为用到了policy gradient似乎效果更棒
