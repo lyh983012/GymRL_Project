@@ -45,11 +45,11 @@
 > * 80*80 or 84*84 ？
 > * epoch/episode = 100; iteration = 10000
 > * Double DQN：一个用来决定行为，一个用来估计价值
-    - update_target_net()
-			 - save_weight()
-			 - loss应该需要重写（参考github）
+ - update_target_net()
+ - save_weight()
+ - loss应该需要重写（参考github）
 > * A3C（policy gradient相关）
 > * 我想做的：
-			 - DDQN
-			 - 在输出中加入日志，例如epoch平均reward等等
-			 - A3C随缘，看时间是否足够（据说可以加快速度），因为用到了policy gradient似乎效果更棒
+ - DDQN
+ - 在输出中加入日志，例如epoch平均reward等等
+ - A3C随缘，看时间是否足够（据说可以加快速度），因为用到了policy gradient似乎效果更棒
